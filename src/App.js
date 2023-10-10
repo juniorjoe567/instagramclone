@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(() => {
         setCurrentImage(images[Math.floor(Math.random() * images.length)]);
-    }, 5000)
+    }, 3000)
     
     return () => clearInterval(intervalId);
 }, [])
@@ -44,7 +44,7 @@ function App() {
       <div className='col-md-4' style={bodyStyle}>
       <Image src={currentImage} rounded style={imageStyle}/>
         </div>
-      <div className='col-md-6'>fdfdfdf</div>
+      <div className='col-md-6'></div>
     </div>
   );
 }
