@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bodyStyle{
+  display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url('./images/home-phones-2x.png');
+    background-size:468.32px 634.15px;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:693px
+}
