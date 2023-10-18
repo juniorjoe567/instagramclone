@@ -21,7 +21,7 @@ export function LoginSection(props) {
                 </div>
                 <div className='col-md-12 mt-3 text-center d-grid gap-2'>
                 <Button variant="primary" size="sm">
-                    Small button
+                    Log in
                 </Button>
                 </div>
 
