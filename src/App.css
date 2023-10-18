@@ -48,3 +48,23 @@
     background-repeat:no-repeat;
     height:693px
 }
+
+.imageStyle{
+  background-image: url('./images/ajlEU-wEDyo.png');
+  height: 104px;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -30px;
+
+}
+
+.mar-right{
+  margin-right: 10px;
+  color:gray;
+  font-size: 13px;
+}
+
+.colorgray{
+  color:gray;
+  font-size: 13px;
+}
